@@ -1,0 +1,605 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arimo:wght@400;500;600;700&family=Arsenal:wght@400;700&family=Dosis:wght@400;500;700&family=Exo+2:wght@400;500;700&family=Inter:wght@400;500;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&family=Noto+Sans+Mono:wght@200;300;400;500;700&family=Nunito&family=Open+Sans:wght@300;400;500;600;700&family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500&family=Rajdhani:wght@400;500;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap');
+
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+.body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.project-background {
+    background-image: url("https://img1.wsimg.com/isteam/ip/5b2b76a0-881d-48aa-803d-8a09465b72c8/MSH_towson_pizzeria_plain003-0001.jpg/:/rs=w:1535,m");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.nav-bar-items {
+    margin-left: 40% !important;
+}
+.nav-bar-items ul li{
+    margin-left: 25px;
+}
+.navbar-brand h1{
+    font-family: arsenal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color:red;
+}
+.navbar-brand h2{
+    font-family: arsenal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color:green;
+}
+
+/* project-2=start */
+.project-2 h1{
+   font-family: arsenal;
+   font-size: 55px;
+   font-weight: 700;
+   line-height: 62px;
+   color: #F7F7F7;
+}
+.project-2 hr{
+    color:#F7F7F7;
+    height: 10px;
+ 
+
+
+}
+.project-2 p {
+    font-family: arsenal;
+    font-size: 24px;
+    font-weight:700;
+    line-height: 36px;
+    color:#F7F7F7;
+
+}
+.project-2-button a{
+    font-family: arsenal;
+    font-size: 18px;
+    font-weight:700;
+    line-height: 18px;
+    color:black;
+    background-color: white;
+    text-align: center; 
+}
+.project-2-button a:hover {
+    font-family: arsenal;
+    font-size: 18px;
+    font-weight:700;
+    line-height: 18px;
+    color:black;
+    background-color: rgb(244, 240, 240);
+    text-align: center; 
+}
+.project-2-button {
+    font-family: arsenal;  
+    text-align: center; 
+     
+
+}
+
+/* project-3 */
+
+.project-3-background {
+    margin-top:175px !important;
+    margin-bottom:100px;
+}
+.project-3-background h2 {
+    font-family: arsenal;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 24px;
+}
+.project-3-background p {
+    font-family: arsenal;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+/* project-4 */
+
+.project-4 h2 {
+    font-family: arsenal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#5E5E5E;
+}
+.input-box-1 input {
+    margin-left: 50%;
+    padding-left:90px !important;
+    padding-right: 190px !important;
+    padding:15px;
+    border-color: black;
+}
+.input-box-2 input{
+    margin-left: 170px;
+    padding:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #DCD4BD;
+}
+
+/* project-5 */
+.project-5 img{
+     width:100%;
+     background-size: cover;
+     height:550px;
+
+}
+
+/* project-6 */
+.chek-mark-option {
+     margin-left: 35% !important;
+}
+.project-6 button{
+    padding:15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    background-color:#DCD4BD;
+    border-radius: 0px;
+
+}
+.project-6 button:hover{
+    padding:15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    background-color:#DCD4BD;
+    border-radius: 0px;
+
+}
+.project-6 p a {
+    font-family: arsenal;
+    font-size: 14px;
+    font-weight:400;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+/* project-7 */
+.project-7 ul li {
+    list-style: none;
+    margin:20px;
+    font-size: 30px;
+}
+.project-7 ul li a{
+    color:#7f4e1e;
+}
+.project-7 ul li a:hover{
+    color:#bb7126;
+}
+
+/* project-footer */
+.project-footer h3 {
+    font-family: arsenal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.project-footer p{
+    font-family: arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.project-footer a {
+    font-family: arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+}
+.project-footer a:hover {
+    font-family: arsenal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: none;
+    color:green;
+}
+.project-footer h6 {
+        font-family: arsenal;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        list-style: none;
+        color:#343333;
+
+}
+
+
+
+/* responsive-pizza-style */
+
+
+@media (min-width: 1281px) {
+  
+    /* CSS desktops */
+
+    
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    /* CSS laptop */
+    .nav-bar-items {
+      margin-left: 20% !important;
+    }
+
+    .project-background {
+      height: 60vh !important;
+    }
+
+  } 
+  
+  
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS tablet-ipad */
+    
+    .project-background {
+      height: 65vh;
+    }
+
+
+ 
+    .nav-underline {
+      --bs-nav-underline-gap: 0rem !important;
+      --bs-nav-underline-border-width: 0.125rem;
+      background: rgba(0, 40, 43, 0.7);
+    }
+
+    .nav-bar-items {
+      margin-left:0% !important;
+    }
+
+    .navbar-nav-scroll {
+      max-height: 200px !important;
+      overflow-y: auto;
+    }
+
+    .project-2-button {
+      margin-top: 110px;
+    }
+
+    .input-box-1 input {
+      margin-left: 10%;
+    }
+
+    .chek-mark-option {
+      margin-left: 20% !important;
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS mobile-low resulation-ipad */
+    .project-background {
+      height: 85vh !important;
+    }
+
+
+    .nav-underline {
+      --bs-nav-underline-gap: 0rem !important;
+      --bs-nav-underline-border-width: -0.875rem !important;
+      background: rgba(0, 40, 43, 0.7);
+    }
+
+    .navbar-nav-scroll {
+      max-height: 200px !important;
+      overflow-y: auto;
+    }
+
+    .nav-bar-items {
+      margin-left:0% !important;
+    }
+
+    .project-2 h1 {
+      font-family: arsenal;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 55px;
+      color: #F7F7F7;
+      margin-top: -50px;
+    }
+
+    .project-2 p {
+      font-size: 22px;
+      line-height: 29px;
+     
+    }
+
+    .project-2-button a {
+      color: white;
+      background-color: #b44e4e;
+    }
+
+    .project-2-button {
+      margin-top: 40px;
+    }
+
+    .row > * {
+      margin-top: -52px;
+    }
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      height: 110% !important;
+      width: 100%;
+      margin-top:60px !important;
+    }
+
+    .input-box-1 input {
+      margin-left: 8%;
+      padding-left: 90px !important;
+      padding-right: 100px !important;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .input-box-2 input {
+      margin-left: 150px;
+      padding: 9px;
+        
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #D2BC7E;
+    }
+
+    .project-5 img {
+      height: 350px !important;
+    }
+
+    .pt-5 {
+      padding-top:-30px !important;
+    }
+    .mt-5 {
+      margin-top:-30px !important;
+    }
+
+    .chek-mark-option {
+      margin-left: 6% !important;
+      font-size: 14px !important;
+    }
+
+    .project-6 button {
+      padding: 10px;
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      background-color: #D8B245;
+      
+    }
+
+    .project-7 ul li {
+      font-size: 24px !important;
+    }
+
+    
+    
+  }
+
+
+
+
+ 
+
+
+
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS smart-phone*/
+
+    .project-background {
+      background-image: url("https://img1.wsimg.com/isteam/ip/5b2b76a0-881d-48aa-803d-8a09465b72c8/MSH_towson_pizzeria_plain003-0001.jpg/:/rs=w:1535,m");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60vh;
+    }
+
+    .nav-bar-items {
+        margin-left:0% !important;
+      }
+    
+      .nav-underline {
+        --bs-nav-underline-gap: 0rem !important;
+        --bs-nav-underline-border-width: -0.875rem !important;
+        --bs-nav-underline-link-active-color: var(--bs-emphasis-color);
+        background: rgba(0, 40, 43, 0.7);
+      }
+      .ul element {
+        --bs-scroll-height: 160px !important;
+      }
+      .nav-bar-items ul li {
+        margin-left: 35px;
+      }
+      .project-2 h1 {
+        font-family: arsenal;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #FFF;
+        margin-top: -56px;
+      }
+      .project-2 hr {
+        color: #F7F7F7;
+        height: 15px;
+      }
+      hr {
+        margin: 0rem 0;
+        color: inherit;
+        border: 0;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: 0px;
+        border-top: var(--bs-border-width) solid;
+        opacity: 1.25;
+      }
+      .project-2 p {
+        font-family: arsenal;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #F7F7F7;
+      }
+
+      .project-2-button a {
+        font-family: arsenal;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 15px;
+        color: white;
+        background-color: #bd7965;
+        text-align: center;
+      }
+      .row {
+        margin-top: -160px !important;
+      }
+
+      .mapouter {
+        position: relative;
+        text-align: right;
+        height: 130%;
+        width: 110% !important;
+      }
+      .project-3-background h2 {
+        padding-right: 0px;
+        padding-left: 9px;
+      }
+      .accordion-header {
+        margin-bottom: 15px !important;
+      }
+
+      .input-box-1 input {
+        margin-left: 14% !important;
+        padding-left: 35px !important;
+        padding-right: 65px !important;
+        padding: 10px;
+          padding-right: 10px;
+          padding-left: 10px;
+        border-color: black;
+        margin-top: 131px;
+        margin-bottom: 20px;
+      }
+
+      .project-4 h2 {
+        font-family: arsenal;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #5E5E5E;
+        margin-top: -20px;
+        margin-bottom: 20px;
+      }
+
+
+      .input-box-2 input {
+        margin-left: 120px;
+        padding: 10px;
+          padding-right: 10px;
+          padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #DCD4BD;
+      }
+
+
+      .project-5 img {
+        height: 300px;
+      }
+
+      .mt-5 {
+        margin-top: 0rem !important;
+      }
+    
+
+      .form-check .form-check-input {
+        float: left;
+        margin-left: -7.5em;
+      }
+
+      .form-check {
+        display: block;
+        min-height: 1.5rem;
+        margin-left: -10.5em !important;
+        margin-bottom: 0.125rem;
+        font-size: 11px;
+        margin-top: -29px;
+      }
+
+      .project-6 button {
+         padding: 10px;
+         padding-right: 10px;
+         padding-left: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        background-color: #DCD4BD;
+        border-radius: 0px;
+        margin-top: -10px;
+        margin-bottom:0px;
+      }
+
+      .project-7 ul li {
+        list-style: none;
+        margin: 15px;
+          margin-top: 15px;
+        font-size: 22px;
+        margin-top: 155px;
+      }
+
+
+
+
+    
+
+    }
+  
+    
+  
+
+ 
+
+
